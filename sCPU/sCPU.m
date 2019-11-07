@@ -1,9 +1,10 @@
-function[Mc,Ph_err,Miters] = SensEncodedAutoPhaseCorrection(Ksp,smaps,iters,method)
-%  [Mc,Ph_err] = SensEncodedAutoPhaseCorrection(Ksp,smaps,iters,method)
+function[Mc,Ph_err,Miters] = sCPU(Ksp,smaps,iters,method)
+%  [Mc,Ph_err, Miters] = sCPU(Ksp,smaps,iters,method)
 %
-%   Iterative auto phase correction via sensitvity encoded phase
-%    addition and cancellation
-%   Hai Luo et al. (ISMRM 2020.)
+%  Hai Luo et al. (ISMRM 2020.)  sCPU(Sensitivities Constrained Phase Update (sCPU) for Ghost Artifacts Reduction)
+%   Using coil sensitivities as constraints, a synthetic image can be generated in which the ghost is reduced due to phase cancelation. 
+%   Phase error was first estimated from the raw image and the synthetic image, and then was used to update the phase of raw k-space. 
+%   
 %
 %   INPUT:
 %     - Ksp         [kx,ky,coil]  : data corrupted k-space
