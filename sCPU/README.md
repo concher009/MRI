@@ -24,7 +24,7 @@ method = 1;
 
 **Simulated Ghost Images and Correction Result**
 
-![](https://github.com/concher009/MRI/tree/master/sCPU/CorrectionResults.png?raw=true "Simulation Results")
+![](/concher009/MRI/tree/master/sCPU/CorrectionResults.png?raw=true "Simulation Results")
 
 **Estimated Phase error at the end of last iteration **
 
