@@ -24,16 +24,16 @@ method = 1;
 
 **Simulated Ghost Images and Correction Result**
 
-![](https://github.com/concher009/MRI/tree/master/sCPU/CorrectionResults.png)
+![](https://github.com/concher009/MRI/tree/master/sCPU/CorrectionResults.png?raw=true "Simulation Results")
 
 **Estimated Phase error at the end of last iteration **
 
-![](https://github.com/concher009/MRI/tree/master/sCPU/PhaseErr.png)
+![](https://github.com/concher009/MRI/tree/master/sCPU/PhaseErr.png?raw=true "Estimated Phase error at the end of last iteration ")
 
 **Image at the end of each iteration** 
 
-![](https://github.com/concher009/MRI/tree/master/sCPU/Iterations.png)
+![](https://github.com/concher009/MRI/tree/master/sCPU/Iterations.png?raw=true "Image at the end of each iteration ")
 
 **RMSE at the end of each iteration **
 
-![](https://github.com/concher009/MRI/tree/master/sCPU/RMSE.png)
+![](https://github.com/concher009/MRI/tree/master/sCPU/RMSE.png?raw=true "RMSE at the end of each iteration ")
