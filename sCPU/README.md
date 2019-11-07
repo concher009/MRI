@@ -8,32 +8,22 @@ and then was used to update the phase of raw k-space. The simulated ghost images
 
 **How to run the demo** ?
 
-Just run the main.m !
-Several paramters can be adjust for simulation differet type of ghost and different correction method. Such as sim_groups for ghost type & iter for iteration num.
+Just run the "main.m"
 
 
-**An example **
 
-% input parameters
-sim_groups =1; % 1: linear phase error  2: random phase error 3: random phase error & random magnitude error
-iter = 10; % iteration num
+Simulated Ghost Images and Correction Result
 
-%     -method                       :1, phase correction using combined phase error of all channels
-%                                            2, phase correction using indivdual coil phase error
-method = 1;
+![Simulation Results](./CorrectionResults.png "Simulation Results")
 
-**Simulated Ghost Images and Correction Result**
+Estimated Phase error at the end of last iteration
 
-![](/concher009/MRI/tree/master/sCPU/CorrectionResults.png?raw=true "Simulation Results")
+![Simulation Results](./PhaseErr.png "Estimated Phase error at the end of last iteration ")
 
-**Estimated Phase error at the end of last iteration **
+Image at the end of each iteration
 
-![](https://github.com/concher009/MRI/tree/master/sCPU/PhaseErr.png?raw=true "Estimated Phase error at the end of last iteration ")
+![Simulation Results](./Iterations.png "Image at the end of each iteration ")
 
-**Image at the end of each iteration** 
+RMSE at the end of each iteration
 
-![](https://github.com/concher009/MRI/tree/master/sCPU/Iterations.png?raw=true "Image at the end of each iteration ")
-
-**RMSE at the end of each iteration **
-
-![](https://github.com/concher009/MRI/tree/master/sCPU/RMSE.png?raw=true "RMSE at the end of each iteration ")
+![Simulation Results](./RMSE.png "RMSE at the end of each iteration ")
