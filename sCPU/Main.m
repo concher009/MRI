@@ -5,7 +5,7 @@
 load 'ismrm_sunrise_cause_sim_data.mat'
 
 % input parameters
-sim_groups =1; % 1: linear phase error  2: random phase error 3: random phase error & random magnitude error
+sim_groups =3; % 1: linear phase error  2: random phase error 3: random phase error & random magnitude error
 iter = 10; % iteration num
 
 %     -method                       :1, phase correction using combined phase error of all channels
